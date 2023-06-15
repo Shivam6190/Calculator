@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400&display=swap');
+
+*{
+    /* box-sizing: border-box; */
+    /* padding:0;
+    margin:0; */
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+    margin: auto;
+   
+}
+
+.input{
+    border:solid black 2px;
+    padding: 10px 0px;
+    margin:12px;
+    border-radius: 5px;
+    font-size: 21.5px;
+    width: 302px;
+    
+    
+}
+
+.row{
+    margin:8px;
+}
+
+.btn{
+    
+    padding:20px;
+    margin:0 5px;
+    border:solid black 2px;
+    cursor:pointer;
+    border-radius:5px;
+    font-weight: bolder;
+    width:66px;
+    
+}
+
